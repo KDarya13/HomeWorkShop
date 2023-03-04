@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    background-color: #fff;
+}
+
+.center-header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center-offers {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #222222;
+    height: 75px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 859px;
+    padding: 18px 240px 19px 231px;
+    box-sizing: border-box;
+}
+
+.label-search {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 41px;
+
+
+}
+
+.label {
+    width: 44px;
+    background-image: url(../img/label.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+}
+
+.content {}
+
+.top-content {
+    background-color: #F1E4E6;
+    margin: 0 0 48px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-photo {
+    background-image: url(../img/man-in-jacket-top.png);
+    width: 800px;
+    height: 764px;
+    margin: 0 64px 0 0;
+}
+
+.top-title-big {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+    margin: 0 0;
+}
+
+.top-title-small {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+
+.fashion {
+    color: #F16D7F;
+}
+
+.offers-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+}
+
+.offer-item-wrp-photo {
+    position: relative;
+}
+
+.offers-info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.offer-item-big {
+    max-width: 1140px;
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+.offers-photo-women {
+    width: 360px;
+    height: 260px;
+    background-image: url(../img/women-offers.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.offers-photo-men {
+    width: 360px;
+    height: 260px;
+    background-image: url(../img/men-offers.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.offers-photo-kids {
+    width: 360px;
+    height: 260px;
+    background-image: url(../img/child-offers.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.offers-photo-accesories {
+    width: 1140px;
+    height: 180px;
+    background-image: url(../img/acs-offers.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.offer-small-txt {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.offer-big-txt {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #F16D7F;
+}
+
+.middle-info {
+    text-align: center;
+    margin: 103px auto 48px auto;
+}
+
+.middle-title {
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    margin: auto auto 6px auto;
+}
+
+.middle-txt {
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
+
+.product-offer-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+}
+
+.product-offer-item {
+    max-width: 360px;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding-bottom: 24px;
+}
+
+.product-offer-info {
+    padding-left: 16px;
+}
+
+.product-title {
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin: 25px 0 16px 0;
+}
+
+.product-txt {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    margin: 0 0 16px 0;
+}
+
+.product-cost {
+    color: #F16D7F;
+}
+
+.all-offers {
+    display: flex;
+    align-items: center;
+    margin: 48px auto auto auto;
+}
+
+.offers-btn {
+    width: 212px;
+    height: 48px;
+    color: #F26376;
+    background: #E5E5E5;
+    margin: 0 auto;
+    border: 1px solid #FF6A6A;
+}
