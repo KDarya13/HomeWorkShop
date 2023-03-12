@@ -290,7 +290,7 @@ a {
 .offers-list {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(3, 360px);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
@@ -337,8 +337,8 @@ a {
 }
 
 .offers-photo-accesories {
-    width: 1140px;
-    height: 180px;
+    max-width: 1140px;
+    min-height: 180px;
     background-image: url(../img/acs-offers.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -380,7 +380,7 @@ a {
 .products-offer-list {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(3, 360px);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
