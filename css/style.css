@@ -19,7 +19,6 @@ a {
 .top {
     background-color: #fff;
     position: relative;
-    overflow: hidden;
 }
 
 .center-header {
@@ -31,6 +30,7 @@ a {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
+    outline: 1px solid rgb(230, 141, 141);
 }
 
 .header {
@@ -310,8 +310,8 @@ a {
 }
 
 .offers-photo {
-    width: 360px;
-    height: 260px;
+    max-width: 360px;
+    min-height: 260px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -319,7 +319,6 @@ a {
 
 .offers-photo-women {
     background-image: url(../img/women-offers.jpg);
-
 }
 
 .offers-photo-men {
@@ -576,5 +575,63 @@ a {
 
     .product-txt {
         margin: 0 0 18px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .registration {
+        display: none;
+    }
+
+    .basket {
+        display: none;
+    }
+
+    .top-content {
+        min-height: 363px;
+    }
+
+    .top-photo {
+        display: none;
+    }
+
+    .top-title-big {
+        width: 900;
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .top-title-small {
+        width: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .offers-list {
+        grid-template-columns: 343px;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .offers-photo {
+        width: 343px;
+        height: 248px;
+    }
+
+    .offer-item-big {
+        max-width: 343px;
+        min-height: 111px;
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .offers-photo-accesories {
+        max-width: 343px;
+        min-height: 111px;
+    }
+
+    .products-offer-list {
+        grid-template-columns: 360px;
+        gap: 16px;
     }
 }
